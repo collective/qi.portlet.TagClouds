@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<portlets>
+
+ <!-- Portlet type registrations -->
+
+ <portlet
+   addview="qi.portlet.TagClouds.TagCloudPortlet"
+   title="Tag Cloud portlet"
+   description="A configurable plone portlet that displays tag clouds"
+   />
+
+</portlets>

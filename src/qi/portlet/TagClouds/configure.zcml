@@ -1,0 +1,37 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="qi.portlet.TagClouds">
+
+    <five:registerPackage package="." initialize=".initialize" />
+    <i18n:registerTranslations directory="locales" />
+    <include package=".browser" />
+
+    <genericsetup:registerProfile
+       name="default"
+       title="Tag Cloud portlet"
+       directory="profiles/default"
+       description="A configurable plone portlet that displays tag clouds"
+       provides="Products.GenericSetup.interfaces.EXTENSION"
+       />
+
+    <utility
+       component=".vocabularies.SubjectsVocabularyFactory"
+       name="qi.portlet.TagClouds.subjects"
+       />
+
+     <plone:portlet
+         name="qi.portlet.TagClouds.TagCloudPortlet"
+         interface=".tagcloudportlet.ITagCloudPortlet"
+         assignment=".tagcloudportlet.Assignment"
+         view_permission="zope2.View"
+         edit_permission="cmf.ManagePortal"
+         renderer=".tagcloudportlet.Renderer"
+         addview=".tagcloudportlet.AddForm"
+         editview=".tagcloudportlet.EditForm"
+         />
+
+</configure>

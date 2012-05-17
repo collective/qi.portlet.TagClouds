@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qi.portlet.TagClouds\n"
+"POT-Creation-Date: 2009-12-23 09:51+0000\n"
+"PO-Revision-Date: 2009-12-23 10:56+0100\n"
+"Last-Translator: Lukas Zdych <lukas.zdych@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Language-Team: \n"
+
+#: ./tagcloudportlet.py:194
+msgid "${count} items"
+msgstr "${count} položek"
+
+#: ./tagcloudportlet.py:70
+msgid "Filter by keywords"
+msgstr "Filtrovat podle klíčových slov"
+
+#: ./tagcloudportlet.py:71
+msgid "Filter the keywords searched. Only items categorized with at least all the keywords selected here will be searched. The keywords selected here will be omitted from the tag clouds. Leaving the field empty will disable filtering"
+msgstr "Pouze obsah přiřazený všem zde vybraným klíčovým slovům bude vyhledáván. Zde zvolená klíčová slova budou také vynechána z tag cloudu. Prázdná hodnota vypne filtrování podle klíčových slov."
+
+#: ./tagcloudportlet.py:52
+msgid "If greater than zero this number will limit the tags shown."
+msgstr "Pokud je větší než nula, omezí počet zobrazených štítků."
+
+#: ./tagcloudportlet.py:51
+msgid "Maximum number of shown tags."
+msgstr "Maximální počet zobrazených štítků."
+
+#: ./tagcloudportlet.py:42
+msgid "Number of different sizes"
+msgstr "Počet různých velikostí"
+
+#: ./tagcloudportlet.py:35
+msgid "Portlet title"
+msgstr "Název portletu"
+
+#: ./tagcloudportlet.py:106
+msgid "Refresh interval"
+msgstr "Interval obnovení"
+
+#: ./tagcloudportlet.py:61
+msgid "Restrict by keywords"
+msgstr "Omezit podle kategorií"
+
+#: ./tagcloudportlet.py:82
+msgid "Restrict by types"
+msgstr "Omezit podle typů"
+
+#: ./tagcloudportlet.py:83
+msgid "Restrict the content types. Leaving this empty will include all user-friendly content types."
+msgstr "Omezit typy obsahu. Je-li prázdné , budou zahrnuty všechny uživatelsky dostupné typy obsahu."
+
+#: ./tagcloudportlet.py:62
+msgid "Restrict the keywords searched. Leaving this empty will include all keywords"
+msgstr "Omezit vyhledávaná klíčová slova. Prázdná hodnota znamená zahrnout všechna existující."
+
+#: ./tagcloudportlet.py:90
+msgid "Root node"
+msgstr "Cesta ke kořenovému adresáři"
+
+#: ./tagcloudportlet.py:107
+msgid "The maximum time in seconds for which the portal will cache the results. Be careful not to use low values."
+msgstr "Maximální doba, po kterou bude obsah portletu držen v cache. Pozor, nepoužívejte nízké hodnoty."
+
+#: ./tagcloudportlet.py:36
+msgid "The title of the tagcloud."
+msgstr "Název tagclouds."
+
+#: ./tagcloudportlet.py:43
+msgid "This number will also determine the biggest size."
+msgstr "Toto číslo zároveň určí vejvětší velikost."
+
+#: ./tagcloudportlet.py:100
+msgid "Which workflow states to include in the search."
+msgstr "Které workflow stavy mají být zahrnuty do vyhledávání."
+
+#: ./tagcloudportlet.py:99
+msgid "Workflow states to show"
+msgstr "Workflow stavy k zobrazení"
+
+#: ./tagcloudportlet.py:91
+msgid "You may search for and choose a folder to act as the root of the navigation tree. Leave blank to use the Plone site root."
+msgstr "Umožňuje omezit vyhledávání obsahu ve zvolené složce. Je-li prázdné, bude prohledán celý portál."
+

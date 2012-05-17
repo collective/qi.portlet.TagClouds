@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2011-07-13 12:43+0000\n"
+"PO-Revision-Date: 2011-07-13 14:57+0100\n"
+"Last-Translator: Mikel Larreategi <mlarreategi@codesyntax.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Language-Team: \n"
+
+#: ./tagcloudportlet.py:196
+msgid "${count} items"
+msgstr "${count} elementos"
+
+#: ./tagcloudportlet.py:71
+msgid "Filter by keywords"
+msgstr "Filtrar por etiqueta"
+
+#: ./tagcloudportlet.py:72
+msgid "Filter the keywords searched. Only items categorized with at least all the keywords selected here will be searched. The keywords selected here will be omitted from the tag clouds. Leaving the field empty will disable filtering"
+msgstr "Filtrar las etiquetas que se buscan. Sólo se buscará entre los elementos que tengan al menos todas las etiquetas seleccionadas aquí. Las etiquetas que seleccione aquí no se mostrarán en la numbe. Si deja este campo vacío, se desactivará el filtro."
+
+#: ./tagcloudportlet.py:55
+msgid "If greater than zero this number will limit the tags shown."
+msgstr "Si es mayor que 0, indicará cuántas etiquetas se deben mostrar."
+
+#: ./tagcloudportlet.py:54
+msgid "Maximum number of shown tags."
+msgstr "Máximo número de etiquetas."
+
+#: ./tagcloudportlet.py:46
+msgid "Number of different sizes"
+msgstr "Número de tamaños diferentes"
+
+#: ./tagcloudportlet.py:40
+msgid "Portlet title"
+msgstr "Título del portlet"
+
+#: ./tagcloudportlet.py:107
+msgid "Refresh interval"
+msgstr "Intervalo en el que se renovará la nube de tags."
+
+#: ./tagcloudportlet.py:63
+msgid "Restrict by keywords"
+msgstr "Restringir por etiquetas"
+
+#: ./tagcloudportlet.py:83
+msgid "Restrict by types"
+msgstr "Restringir por tipo de elemento"
+
+#: ./tagcloudportlet.py:84
+msgid "Restrict the content types. Leaving this empty will include all user-friendly content types."
+msgstr "Restringir los tipos de elemento. Si deja el campo vacío se incluirán todos los tipos de elemento."
+
+#: ./tagcloudportlet.py:64
+msgid "Restrict the keywords searched. Leaving this empty will include all keywords"
+msgstr "Restringir las etiquetas. Si deja el campo vacío se incluirán todos los tipos de elemento."
+
+#: ./tagcloudportlet.py:91
+msgid "Root node"
+msgstr "Nodo raíz"
+
+#: ./tagcloudportlet.py:108
+msgid "The maximum time in seconds for which the portal will cache the results. Be careful not to use low values."
+msgstr "El número de segundos durante el que la nube de etiquetas no se volverá a calcular. Tenga cuidado en no utilizar valores muy bajos."
+
+#: ./tagcloudportlet.py:41
+msgid "The title of the tagcloud."
+msgstr "Título de la nube de etiquetas."
+
+#: ./tagcloudportlet.py:47
+msgid "This number will also determine the biggest size."
+msgstr "Este número determina también el tamaño más grande."
+
+#: ./tagcloudportlet.py:101
+msgid "Which workflow states to include in the search."
+msgstr "Qué estados del flujo de trabajo incluir en la búsqueda."
+
+#: ./tagcloudportlet.py:100
+msgid "Workflow states to show"
+msgstr "Estados a mostrar"
+
+#: ./tagcloudportlet.py:92
+msgid "You may search for and choose a folder to act as the root of the navigation tree. Leave blank to use the Plone site root."
+msgstr "Puede buscar y seleccionar una carpeta para que actúe de raíz de la búsqueda de elementos. Déjelo en blanco para utilizar la raíz del sitio Plone."
+

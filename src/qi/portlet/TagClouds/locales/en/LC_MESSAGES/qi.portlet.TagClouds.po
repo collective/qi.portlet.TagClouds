@@ -1,0 +1,88 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2009-12-23 09:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Preferred-Encodings: utf-8 latin1\n"
+
+#: ./tagcloudportlet.py:194
+msgid "${count} items"
+msgstr ""
+
+#: ./tagcloudportlet.py:70
+msgid "Filter by keywords"
+msgstr ""
+
+#: ./tagcloudportlet.py:71
+msgid "Filter the keywords searched. Only items categorized with at least all the keywords selected here will be searched. The keywords selected here will be omitted from the tag clouds. Leaving the field empty will disable filtering"
+msgstr ""
+
+#: ./tagcloudportlet.py:52
+msgid "If greater than zero this number will limit the tags shown."
+msgstr ""
+
+#: ./tagcloudportlet.py:51
+msgid "Maximum number of shown tags."
+msgstr ""
+
+#: ./tagcloudportlet.py:42
+msgid "Number of different sizes"
+msgstr ""
+
+#: ./tagcloudportlet.py:35
+msgid "Portlet title"
+msgstr ""
+
+#: ./tagcloudportlet.py:106
+msgid "Refresh interval"
+msgstr ""
+
+#: ./tagcloudportlet.py:61
+msgid "Restrict by keywords"
+msgstr ""
+
+#: ./tagcloudportlet.py:82
+msgid "Restrict by types"
+msgstr ""
+
+#: ./tagcloudportlet.py:83
+msgid "Restrict the content types. Leaving this empty will include all user-friendly content types."
+msgstr ""
+
+#: ./tagcloudportlet.py:62
+msgid "Restrict the keywords searched. Leaving this empty will include all keywords"
+msgstr ""
+
+#: ./tagcloudportlet.py:90
+msgid "Root node"
+msgstr ""
+
+#: ./tagcloudportlet.py:107
+msgid "The maximum time in seconds for which the portal will cache the results. Be careful not to use low values."
+msgstr ""
+
+#: ./tagcloudportlet.py:36
+msgid "The title of the tagcloud."
+msgstr ""
+
+#: ./tagcloudportlet.py:43
+msgid "This number will also determine the biggest size."
+msgstr ""
+
+#: ./tagcloudportlet.py:100
+msgid "Which workflow states to include in the search."
+msgstr ""
+
+#: ./tagcloudportlet.py:99
+msgid "Workflow states to show"
+msgstr ""
+
+#: ./tagcloudportlet.py:91
+msgid "You may search for and choose a folder to act as the root of the navigation tree. Leave blank to use the Plone site root."
+msgstr ""
+

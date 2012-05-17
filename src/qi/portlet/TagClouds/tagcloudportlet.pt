@@ -1,0 +1,20 @@
+<dl class="portlet portletTagCloudPortlet"
+    i18n:domain="qi.portlet.TagClouds">
+    
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <span tal:content="view/getPortletTitle">Portlet Title</span>
+        <span class="portletTopRight"></span>
+    </dt>
+
+    <dd class="portletItem odd lastItem" tal:define="results view/getTags;">
+        <tal:items tal:repeat="obj results">
+            <a href="#" rel="nofollow" tal:attributes="href obj/href; title obj/count">
+                <span tal:attributes="class obj/class;" tal:content="structure obj/text">Tag</span>
+            </a>
+        </tal:items>
+        <span class="portletBottomLeft"></span>
+        <span class="portletBottomRight"></span>
+    </dd>
+
+</dl>

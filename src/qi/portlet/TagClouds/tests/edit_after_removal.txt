@@ -1,0 +1,23 @@
+Editing the portlet after a subject that is in the restricted or filtered
+subjects has been removed.
+
+    >>> self.setRoles('Manager')
+    >>> from zope.component import getUtility
+    >>> from plone.portlets.interfaces import IPortletType
+    >>> removemeid = self.portal.invokeFactory('Document','removeme')
+    >>> self.portal.removeme.editMetadata(subject=['toremove'])
+    >>> self.portal.portal_workflow.doActionFor(self.portal.removeme, 'publish')
+    >>> portlet = getUtility(IPortletType, name='qi.portlet.TagClouds.TagCloudPortlet')
+    >>> request = self.portal.REQUEST
+    >>> mapping = self.portal.restrictedTraverse('++contextportlets++plone.leftcolumn')
+    >>> addview = mapping.restrictedTraverse('+/' + portlet.addview)
+    >>> addview.createAndAdd(data={'restrictSubjects':['toremove'],'refreshInterval':1})
+    
+    >>> browser = self.getBrowser()
+    >>> browser.open("http://nohost/plone")
+    >>> browser.contents
+    '...toremove...'
+    >>> del self.portal[removemeid]
+    >>> browser.open('http://nohost/plone/++contextportlets++plone.leftcolumn/tag-cloud-portlet/edit')
+    >>> 'toremove' not in browser.contents
+    True

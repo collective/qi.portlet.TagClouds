@@ -1,0 +1,88 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qi.portlet.TagClouds\n"
+"POT-Creation-Date: 2011-01-09 17:05+0100\n"
+"PO-Revision-Date: 2011-01-09 18:23+0100\n"
+"Last-Translator: Benjamin Hedrich <benjamin.hedrich@pagenotfound.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Preferred-Encodings: utf-8 latin1\n"
+
+#: ./tagcloudportlet.py:197
+msgid "${count} items"
+msgstr "${count} Einträge"
+
+#: ./tagcloudportlet.py:72
+msgid "Filter by keywords"
+msgstr "Filtern nach Schlagworten"
+
+#: ./tagcloudportlet.py:73
+msgid "Filter the keywords searched. Only items categorized with at least all the keywords selected here will be searched. The keywords selected here will be omitted from the tag clouds. Leaving the field empty will disable filtering"
+msgstr "Inhalte nach bestimmten Schlagworten filtern. Nur Inhalte die genau mit den hier ausgewählten Schlageworten kategorisiert sind, einbeziehen. Die hier ausgewählteb Schlagworte werden in der Tagcloud weggelassen. Lassen sie dieses Feld leer um das Filtern zu deaktivieren."
+
+#: ./tagcloudportlet.py:56
+msgid "If greater than zero this number will limit the tags shown."
+msgstr "Ist der Wert größer als null, wird dieser die Anzahl der anzuzeigenen Tags begrenzen."
+
+#: ./tagcloudportlet.py:55
+msgid "Maximum number of shown tags."
+msgstr "Maximale Anzahl angezeigter Tags."
+
+#: ./tagcloudportlet.py:47
+msgid "Number of different sizes"
+msgstr "Anzahl unterschiedlicher Größen"
+
+#: ./tagcloudportlet.py:41
+msgid "Portlet title"
+msgstr "Titel des Portlets"
+
+#: ./tagcloudportlet.py:108
+msgid "Refresh interval"
+msgstr "Erneuerungsintervall"
+
+#: ./tagcloudportlet.py:64
+msgid "Restrict by keywords"
+msgstr "Begrenzen auf bestimmte Schlagworte"
+
+#: ./tagcloudportlet.py:84
+msgid "Restrict by types"
+msgstr "Begrenzen auf bestimmte Inhaltstypen"
+
+#: ./tagcloudportlet.py:85
+msgid "Restrict the content types. Leaving this empty will include all user-friendly content types."
+msgstr "Begrenzen auf Inhaltstypen. Lassen Sie das Feld leer um alle benutzerfreundlichen Inhaltstypen einzubeziehen."
+
+#: ./tagcloudportlet.py:65
+msgid "Restrict the keywords searched. Leaving this empty will include all keywords"
+msgstr "Begrenzen auf Schlagworte. Lassen Sie das Feld leer um alle Schlagworte einzubeziehen."
+
+#: ./tagcloudportlet.py:92
+msgid "Root node"
+msgstr "Wurzelknoten"
+
+#: ./tagcloudportlet.py:109
+msgid "The maximum time in seconds for which the portal will cache the results. Be careful not to use low values."
+msgstr "Maximale Zeit in Sekunden, wie lange Plone die Ergebnisse cachen soll. Seien Sie vorsichtig bei kleinen Werten!"
+
+#: ./tagcloudportlet.py:42
+msgid "The title of the tagcloud."
+msgstr "Der Titel der Tagcloud."
+
+#: ./tagcloudportlet.py:48
+msgid "This number will also determine the biggest size."
+msgstr "Der Wert wird die größte Schriftgröße begrenzen."
+
+#: ./tagcloudportlet.py:102
+msgid "Which workflow states to include in the search."
+msgstr "Welche Workflow-Zustände bei der Suche berücksichtigt werden sollen."
+
+#: ./tagcloudportlet.py:101
+msgid "Workflow states to show"
+msgstr "anzuzeigene Workflow-Zustände"
+
+#: ./tagcloudportlet.py:93
+msgid "You may search for and choose a folder to act as the root of the navigation tree. Leave blank to use the Plone site root."
+msgstr "Sie können für die Suche einen Ordner bestimmen, der als Wurzel der Navigationsstruktur agiert. Dieses Feld freilassen um die Plone-Site als Wurzel zu verwenden."
+
