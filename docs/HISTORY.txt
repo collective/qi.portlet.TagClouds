@@ -3,6 +3,7 @@ Changelog
 
 1.34
 ----
+* Do not require cmf.ManagePortal to add or edit the portlet [erral]
 
 1.33
 ----
