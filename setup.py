@@ -31,9 +31,10 @@ setup(name='qi.portlet.TagClouds',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'collective.testcaselayer'
           # -*- Extra requirements: -*-
       ],
+      extras_require={
+          'test': ['collective.testcaselayer']},
       entry_points="""
       [z3c.autoinclude.plugin]
       target = plone
