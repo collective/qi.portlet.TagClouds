@@ -3,6 +3,9 @@ Changelog
 
 1.34
 ----
+
+* Moved collective.testcaselayer from the install_requires to a 'test'
+  extras_require. [maurits]
 * Do not require cmf.ManagePortal to add or edit the portlet [erral]
 
 1.33
