@@ -9,7 +9,8 @@
 
     <include package="Products.CMFCore"
              zcml:condition="have plone-41"
-             file="permissions.zcml" />
+             file="permissions.zcml" 
+             />
 
     <five:registerPackage package="." initialize=".initialize" />
     <i18n:registerTranslations directory="locales" />
