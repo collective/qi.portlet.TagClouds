@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.35
+----
+
+* Change import to work with Plone 4.1.x and Plone 4.2.x [lccruz]
+
 1.34
 ----
 
