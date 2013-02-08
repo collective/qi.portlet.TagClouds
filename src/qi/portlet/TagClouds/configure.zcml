@@ -9,7 +9,7 @@
 
     <include package="Products.CMFCore"
              zcml:condition="have plone-41"
-             file="permissions.zcml" 
+             file="permissions.zcml"
              />
 
     <five:registerPackage package="." initialize=".initialize" />
@@ -33,8 +33,6 @@
          name="qi.portlet.TagClouds.TagCloudPortlet"
          interface=".tagcloudportlet.ITagCloudPortlet"
          assignment=".tagcloudportlet.Assignment"
-         view_permission="zope2.View"
-         edit_permission="cmf.ManagePortal"
          renderer=".tagcloudportlet.Renderer"
          addview=".tagcloudportlet.AddForm"
          editview=".tagcloudportlet.EditForm"
