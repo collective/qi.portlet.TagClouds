@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '1.35rc1'
+version = '1.35rc2'
 
 setup(name='qi.portlet.TagClouds',
       version=version,
