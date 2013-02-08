@@ -11,6 +11,7 @@
              zcml:condition="have plone-41"
              file="permissions.zcml"
              />
+    <include package="plone.app.portlets" />
 
     <five:registerPackage package="." initialize=".initialize" />
     <i18n:registerTranslations directory="locales" />
