@@ -41,10 +41,26 @@ setup(name='qi.portlet.TagClouds',
       platforms='Any',
       zip_safe=False,
       install_requires=[
+          'plone.app.form',
+          'plone.app.layout',
+          'plone.app.portlets',
+          'plone.app.vocabularies',
+          'plone.memoize',
+          'plone.portlets',
+          'Products.CMFCore',
+          'Products.GenericSetup',
           'setuptools',
+          'zope.component',
+          'zope.i18nmessageid',
+          'zope.interface',
+          'zope.schema',
       ],
       extras_require={
-          'test': ['collective.testcaselayer']},
+          'test': [
+              'collective.testcaselayer',
+              'Products.PloneTestCase',
+          ],
+      },
       entry_points="""
       [z3c.autoinclude.plugin]
       target = plone
