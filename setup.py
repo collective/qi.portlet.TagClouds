@@ -1,37 +1,47 @@
-from setuptools import setup, find_packages
-import os
+# -*- coding:utf-8 -*-
+
+from setuptools import find_packages
+from setuptools import setup
 
 version = '1.35'
+long_description = (
+    open('README.rst').read() + '\n' +
+    open('CHANGES.rst').read()
+)
 
 setup(name='qi.portlet.TagClouds',
       version=version,
       description="A configurable plone portlet that displays tag clouds",
-      long_description=open("README.txt").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
-      # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
+      long_description=long_description,
       classifiers=[
-      'Environment :: Web Environment',
-      'Framework :: Plone',
-      'Intended Audience :: Developers',
-      'License :: OSI Approved :: GNU General Public License (GPL)',
-      'Operating System :: OS Independent',
-      'Programming Language :: Python',
-      'Topic :: Software Development :: Libraries :: Python Modules',      
-        ],
+          'Development Status :: 5 - Production/Stable',
+          'Environment :: Web Environment',
+          'Framework :: Plone',
+          'Framework :: Plone :: 4.0',
+          'Framework :: Plone :: 4.1',
+          'Framework :: Plone :: 4.2',
+          'Framework :: Plone :: 4.3',
+          'Intended Audience :: Developers',
+          'License :: OSI Approved :: GNU General Public License (GPL)',
+          'Operating System :: OS Independent',
+          'Programming Language :: Python',
+          'Programming Language :: Python :: 2.6',
+          'Programming Language :: Python :: 2.7',
+          'Topic :: Software Development :: Libraries :: Python Modules',
+      ],
       keywords='plone,tag,cloud,portlet',
       author='Yiorgis Gozadinos',
       author_email='ggozad@jarn.com',
-      url='http://svn.plone.org/svn/collective/qi.portlet.TagClouds',
+      url='https://github.com/collective/qi.portlet.TagClouds',
       license='GPL',
       packages=find_packages('src'),
-      package_dir = {'':'src'},
+      package_dir={'': 'src'},
       namespace_packages=['qi', 'qi.portlet'],
       include_package_data=True,
       platforms='Any',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          # -*- Extra requirements: -*-
       ],
       extras_require={
           'test': ['collective.testcaselayer']},
