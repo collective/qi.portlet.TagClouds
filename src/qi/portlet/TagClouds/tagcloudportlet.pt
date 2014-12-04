@@ -1,6 +1,6 @@
 <dl class="portlet portletTagCloudPortlet"
     i18n:domain="qi.portlet.TagClouds">
-    
+
     <dt class="portletHeader">
         <span class="portletTopLeft"></span>
         <span tal:content="view/getPortletTitle">Portlet Title</span>
